@@ -2,27 +2,25 @@ package cantine;
 
 import java.util.*;
 
-/**
- * 
- */
 public class Matin extends Menu {
 
-    /**
-     * Default constructor
-     */
     public Matin() {
+    	
     }
 
-    /**
-     * 
-     */
-    public String cereale;
+    public String getCereale() {
+		return cereale;
+	}
 
-    /**
-     * 
-     */
-    public void AfficherMenuMatin() {
-        // TODO implement here
+	public void setCereale(String cereale) {
+		this.cereale = cereale;
+	}
+
+	public String cereale;
+
+    public void afficherMenuMatin() {
+        
+    	System.out.println("Au menu de votre petit déjeuner: " + getBoisson() + ", " + getFeculent() + ", " + getProduitLaitier() + ", " + getFruit() + ", " + getCereale() + ".");
     }
 
 }
