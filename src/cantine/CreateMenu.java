@@ -1,12 +1,7 @@
 package cantine;
 
-import java.util.*;
-
 public class CreateMenu {
 
-    public CreateMenu() {
-    	
-    }
     public static void main(String[] args) {
     	
     	// Créer les instances des classes.

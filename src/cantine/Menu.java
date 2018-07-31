@@ -1,18 +1,14 @@
 package cantine;
 
-import java.util.*;
-
 public class Menu {
-
-    public Menu() {
-    	
-    }
 
     public String boisson;
     public String feculent;
     public String produitLaitier;
     public String fruit;
-
+    
+    // Getters and Setters: méthodes qui récupèrent et affectent des valeurs à une variable.
+    // Méthodes partagées par les sous-classes.
     public String getBoisson() {
 		return boisson;
 	}

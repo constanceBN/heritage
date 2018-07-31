@@ -1,12 +1,8 @@
 package cantine;
 
-import java.util.*;
-
 public class Matin extends Menu {
 
-    public Matin() {
-    	
-    }
+    public String cereale;
 
     public String getCereale() {
 		return cereale;
@@ -15,8 +11,6 @@ public class Matin extends Menu {
 	public void setCereale(String cereale) {
 		this.cereale = cereale;
 	}
-
-	public String cereale;
 
     public void afficherMenuMatin() {
         

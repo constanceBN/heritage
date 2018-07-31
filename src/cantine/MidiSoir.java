@@ -1,12 +1,6 @@
 package cantine;
 
-import java.util.*;
-
 public class MidiSoir extends Menu {
-
-    public MidiSoir() {
-    	
-    }
 
     public String legume;
     public String proteine;
